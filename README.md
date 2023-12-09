@@ -13,11 +13,6 @@
   - `git push -u origin main`
 
 
-- #### Existing Repository
-  - `git remote add origin https://github.com/auraXcode/[repo-name].git`
-  - `git branch -M main`
-  - `git push -u origin main`
-
 ## Getting Started and Testing
 > Check Status or State of your repo
 - `git status`
