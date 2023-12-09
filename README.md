@@ -1,4 +1,4 @@
-# GIT WORKFLOW
+# Git Workflow
 
 ## Setup and Initiation
 - `git config --global user.email "you@example.com"`
@@ -29,4 +29,4 @@
 - git rm -r [file-name.git]
 
 ## Branching and Merging
---- will be added later
+.... will be added later.
