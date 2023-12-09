@@ -22,8 +22,9 @@ trade pull request of steakers
   - git push -u origin main
 
 ## Getting Started and Testing
-- #### `git status`
-- #### `git branches`
+- `git status`
+- `git branches ` | List branches | `-a`: all
+- `git log ` | View Changes | `--oneline`: view all changes in short  
 
 
 
