@@ -22,14 +22,12 @@ trade pull request of steakers
   - git push -u origin main
 
 ## Getting Started and Testing
-> Check Status
-`git status`
+> Check Status or State of your repo
+- `git status`
+>List Branches | `-a` denotes all Branches
 - `git branches ` 
->List branches 
->>`-a`: all
+> Changes You and Other made | `--oneline` denotes all commit id and name (no details)
 - `git log `
-View Changes
->`--oneline`: view all changes in short  
 
 
 
