@@ -1,10 +1,11 @@
 # test-stickers
 trade pull request of steakers
-- Run
+- RunX
    - git config --global user.email "you@example.com"
    - git config --global user.name "Your Name"
 
-
+>DJFD[F
+> JFP[JREJ]]
 - …or create a new repository on the command line
   - echo "# Petbyte" >> README.md
   - git init
