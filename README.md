@@ -1,39 +1,36 @@
-# test-stickers
-trade pull request of steakers
-- RunX
-   - git config --global user.email "you@example.com"
-   - git config --global user.name "Your Name"
+# GIT WORKFLOW
 
->DJFD[F
-> JFP[JREJ]]
-- …or create a new repository on the command line
-  - echo "# Petbyte" >> README.md
-  - git init
-  - git add README.md
-  - git commit -m "first commit"
-  - git branch -M main
-  - git remote add origin https://github.com/auraXcode/Petbyte.git
-  - git push -u origin main
+## Setup and Initiation
+- `git config --global user.email "you@example.com"`
+- `git config --global user.name "Your Name"`
+
+- ### New Repository
+  - `git init`
+  - `git add README.md`
+  - `git commit -m "first commit"`
+  - `git branch -M main`
+  - `git remote add origin https://github.com/[username]/[repo-name].git`
+  - `git push -u origin main`
 
 
-- …or push an existing repository from the command line
-  - git remote add origin https://github.com/auraXcode/Petbyte.git
-  - git branch -M main
-  - git push -u origin main
+- #### Existing Repository
+  - `git remote add origin https://github.com/auraXcode/[repo-name].git`
+  - `git branch -M main`
+  - `git push -u origin main`
 
 ## Getting Started and Testing
 > Check Status or State of your repo
 - `git status`
->List Branches | `-a` denotes all Branches
+> List Branches | `-a` denotes all Branches
 - `git branches ` 
-> Changes You and Other made | `--oneline` denotes all commit id and name (no details)
+> View Changes You and Other made | `--oneline` denotes all commit id and name (no details)
 - `git log `
+> Remove a file
+- git rm -r [file-name.git]
 
 
-
-
-## Post Configration 🔁
-1. `git add .`
+## Post Configration worlflow
+1. `git add .` 
 2. `git commit -m "something has changed"`
 3. `git push origin main` 
 4. `git pull origin main`
