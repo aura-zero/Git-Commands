@@ -21,6 +21,13 @@ trade pull request of steakers
   - git branch -M main
   - git push -u origin main
 
+## Getting Started and Testing
+- ` git status `
+- ` git branches	`
+
+
+
+
 ## Post Configration 🔁
 1. `git add .`
 2. `git commit -m "something has changed"`
