@@ -23,7 +23,8 @@ trade pull request of steakers
 
 ## Getting Started and Testing
 - `git status`
-- `git branches ` | List branches | `-a`: all
+- `git branches ` 
+  -> | List branches | `-a`: all
 - `git log ` | View Changes | `--oneline`: view all changes in short  
 
 
