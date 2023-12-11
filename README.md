@@ -19,6 +19,8 @@
 4. `git pull origin main`
 
 ## Getting Started and Testing
+> Check your login details
+- `git config --list`
 > Check Status or State of your repo
 - `git status`
 > List Branches | `-a` denotes all Branches
@@ -26,7 +28,7 @@
 > View Changes You and Other made | `--oneline` denotes all commit id and name (no details)
 - `git log `
 > Remove a file
-- git rm -r [file-name.git]
+- `git rm -r [file-name.git]`
 
 ## Branching and Merging
 .... will be added later.
