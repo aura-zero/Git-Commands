@@ -3,7 +3,17 @@
 ## Setup and Initiation
 - `git config --global user.email "you@example.com"`
 - `git config --global user.name "Your Name"`
+```
+git config --local user.email "you@example.com"
+git config --local user.name "Your Name"
+```
 
+## Unset
+
+```
+git config --global --unset user.email
+git config --global --unset user.name
+```
 - ### New Repository
   - `git init`
   - `git add README.md`
