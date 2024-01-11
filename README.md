@@ -5,14 +5,14 @@
 - `git config --global user.email "you@example.com"`
 - `git config --global user.name "Your Name"`
 
-```
+```git
 git config --local user.email "you@example.com"
 git config --local user.name "Your Name"
 ```
 
 ## Unset
 
-```
+```git
 git config --global --unset user.email
 git config --global --unset user.name
 ```
@@ -60,7 +60,8 @@ git config --global --unset user.name
 .... will be added later.
 
 ## How to make frolked repo private
-```
+
+```git
 git clone --bare <https://github.com/exampleuser/public-repo.git>
 cd public-repo.git
 git push --mirror <https://github.com/yourname/private-repo.git>
