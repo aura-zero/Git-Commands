@@ -60,6 +60,8 @@ git config --global --unset user.name
 .... will be added later.
 
 ## How to make frolked repo private
+```
 git clone --bare <https://github.com/exampleuser/public-repo.git>
 cd public-repo.git
 git push --mirror <https://github.com/yourname/private-repo.git>
+```
