@@ -59,7 +59,7 @@ git config --global --unset user.name
 >list your branches. a * will appear next to the currently active branch
 
 git branch
->create a new branch at the current commit
+>create a new branch
 
 git branch `branch-name`
 >switch to another branch and check it out into your working directory
