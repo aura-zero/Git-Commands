@@ -56,8 +56,22 @@ git config --global --unset user.name
 - `git rm -r [file-name.git]`
 
 ## Branching and Merging
+>list your branches. a * will appear next to the currently active branch
 
-.... will be added later.
+git branch
+>create a new branch at the current commit
+
+git branch `branch-name`
+>switch to another branch and check it out into your working directory
+
+git checkout `Branch-Name`
+>merge the specified branch’s history into the current one
+
+git merge `branch_name`
+>show all commits in the current branch’s history
+
+git log
+
 
 ## How to make frolked repo private
 
