@@ -1,5 +1,4 @@
 # Git Commands
----
 
 ## Configration email and user name
 
