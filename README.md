@@ -56,8 +56,6 @@ git pull origin main
 |merge the specified branch’s history into the current one|git merge `branch_name`|
 
 
-
-
 ## How to make frolked repo private
 
 ```git
