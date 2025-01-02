@@ -3,24 +3,24 @@
 ## Configration email and user name
 
 ### Global
-```git
+```zsh
 git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
 ```
 ### Local
-```git
+```zsh
 git config --local user.email "you@example.com"
 git config --local user.name "Your Name"
 ```
 ### Unset
-```git
+```zsh
 git config --global --unset user.email
 git config --global --unset user.name
 ```
 
 ## Getting Started with new repo
 
-```git
+```zsh
 git init
 git add README.md
 git commit -m "first commit"
@@ -30,7 +30,7 @@ git push -u origin main
 ```
 
 ## Post Configration and Setup 
-```
+```zsh
 git add .
 git commit -m "something has changed"
 git push origin main
@@ -58,10 +58,29 @@ git pull origin main
 
 
 
-## How to make frolked repo private
+## forkeeed
 
-```git
+```zsh
 git clone --bare <https://github.com/exampleuser/public-repo.git>
 cd public-repo.git
 git push --mirror <https://github.com/yourname/private-repo.git>
+```
+
+## Working with submodules
+Eventually, any interesting software project will come to depend on another project, library, or framework. Git provides submodules to help with this. Submodules allow you to include or embed one…
+
+You can add "sub_repo" as a submodule of main. In the main repository:
+```zsh
+git submodule add https://github.com/<user>/sub_repo part_of_main_now
+```
+
+Newer versions of Git will do this automatically, but older versions will require you to explicitly tell Git to download the contents of sub_repo:
+
+```zsh
+git submodule update --init --recursive
+```
+
+Joining a project using submodules
+```zsh
+git clone --recursive <main repo url>
 ```
